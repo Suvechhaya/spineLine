@@ -719,6 +719,10 @@ a.dt-button.active:not(.disabled) {
   font-size: 20px;
   font-weight: 700;
 }
+.sidebar-hide {
+  height: 1000px;
+  overflow: hidden;
+}
 .sidebar-hide .logo {
   width: 0;
 }
@@ -2228,6 +2232,7 @@ ul.inbox-nav li {
   width: 100%;
 }
 ul.inbox-nav li a {
+  background: #eef5f9;
   color: #6a6a6a;
   display: inline-block;
   line-height: 45px;

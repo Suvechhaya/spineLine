@@ -1,0 +1,20 @@
+/* .card-body {
+  position: relative;
+  display: block;
+  width: 700px;
+  height:  auto;
+  margin-left: 100px;
+}*/
+
+body {
+  overflow-x: hidden;
+}
+
+/* section {
+  margin-left: 190px;
+}
+
+section .content-img {
+  width: 700px;
+  height: auto;
+} */
