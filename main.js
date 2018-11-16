@@ -26,6 +26,25 @@ win.on('closed', () => {
 //run create window function
 app.on('ready', createWindow);
 
+//for pop up
+// function popUp(){
+//   Push.create("Hello world!",{
+//           body: "This is example of Push.js Tutorial",
+//           icon: '/images/hand.jpg',
+//           timeout: 4000,
+//           onShow: function () {
+//               window.focus();
+//               this.close();
+//           }
+//       });
+// }
+//   let myVar = setInterval(popUp, 6000);
+
+notification.requestPermission();
+
+
+
+
 //quit when all windows are closed
 app.on('window-all-closed', () => {
   if(process.platform !== 'win32'){
